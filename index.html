@@ -4,621 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salt'n Pepper-</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="https://static.tossdown.com/site/fe5453f3-ea80-4c64-a212-436b45b39cd7.webp">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Hamza Hackathon</title>
 </head>
 
 <body>
 
-    <div class="main-div-1">
-        <header>
-            <div>
-                <img src="Image/logo.png" alt="" height="80px">
-            </div>
+    <!-- Navbar -->
+    <nav class="menu">
+        <img class="menuimg" src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
+            alt="Salt'n Pepper Logo">
 
-            <div class="child1">
-                <ul>
-                    <li class="child-li"><a href="">Home</a></li>
-                    <li class="child-li"><a href="">About Us</a></li>
-                    <li class="child-li"><a href="">Publications</a></li>
-                    <li class="child-li"><a href="">Feedback</a></li>
-                    <button class="btn1"><a href="">Get a franchise</a></button>
-                    <button class="btn"><a href="">Order online <i
-                                class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                                style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></a></button>
-                </ul>
-            </div>
-        </header>
-
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="https://static.tossdown.com/images/8f5e8fa1-19e4-4561-89e4-5647759c78e1.webp" alt="Los Angeles">
-    </div>
-
-    <div class="item">
-      <img src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp" alt="New York">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-
-    <div class="main-div-2">
-        <h2>Welcome to <span class="h2-span">Salt'n Pepper</span> <br>
-            Restaurants! Our Brands
-        </h2>
-        <p>Please click our brands below for further information, reservations or to order online!</p>
-
-
-        <div class="parent">
-            <div class="child"><a href=""><img src="Image/salt'npepper-restaurant.png" alt="Image"></a></div>
-            <div class="child"><a href=""><img src="Image/salt'npepper-express.png" alt="Image"></a></div>
-            <div class="child"><a href=""><img src="Image/salt'npepper-village.png" alt="Image"></a></div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
         </div>
 
-
-        <div class="child-div">
-            <ul>
-                <li><button type="button">Order Now</button></li>
-                <li><button type="button">Order Now</button></li>
-                <li><button type="button">Order Now</button></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="main-div-3">
-
-        <h1> <span>Salt'n Pepper </span><br>
-            Restaurant Franchises</h1>
-        <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
-
-        <div class="child-of-div-3">
-
-
-
-            <div class="child">
-                <h3>ISLAMABAD</h3>
-                <br>
-                <h2>Salt'n Pepper <span class="span-h2">Restaurant</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span>051-2604904-6</span>
-                </div>
-                <br>
-                <div>
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-
-            <div class="child">
-                <img class="salt" src="Image/S.png" alt="">
-                <img src="Image/islamabad-branch-img.png"
-                alt="islamabad-branch-img" class="branch-imgs">
-            </div>
-
-            <div class="child"><img src="Image/faislabad-branch-img.png" alt="faislabad-branch-img."
-                    class="branch-imgs"></div>
-
-            <div class="child">
-                <h3>FAISALABAD</h3>
-                <br>
-                <h2>Salt'n Pepper <span class="span-h2">Restaurant</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>4-Kohinoor City, Faisalabad</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 041-8711404</span>
-                </div>
-                <br>
-                <div>
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-
-            <div class="child">
-
-                <h3>BAHAWALPUR</h3>
-                <br>
-                <h2>Salt'n Pepper <span class="span-h2">Restaurant</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span> D.C Chowk, opposite Commissioner House, Bahawalpur</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 062-2740271-2</span>
-                </div>
-                <br>
-                <div>
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-
-            </div>
-            <div class="child"><img src="Image/bhawalpur-branch-img.png" alt="bhawalpur-branch-img" class="branch-imgs">
-            </div>
-
-
-
+        <div class="nav-links" id="navLinks">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/about-us" class="nav-link">About Us</a>
+            <a href="/publications" class="nav-link">Publications</a>
+            <button class="navbtn-1">Get a Franchise</button>
         </div>
 
+        <button class="navbtn-2">
+            Order Online <i class="fa-solid fa-circle-arrow-right"></i>
+        </button>
+    </nav>
 
+    <!-- Slider -->
+    <header class="container-fluid p-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            </div>
 
-    </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://static.tossdown.com/images/8f5e8fa1-19e4-4561-89e4-5647759c78e1.webp"
+                        class="d-block w-100 slider-img" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp"
+                        class="d-block w-100 slider-img" alt="Second slide">
+                </div>
+            </div>
 
-    <div class="main-div-4">
+        </div>
+    </header>
 
-        <h2><span class="h2-span">Salt'n Pepper</span> <br>
-            Express Franchises
-        </h2>
-
-        <div class="child-of-div-4">
-
-            <div class="child">
-                <div class="child"><a href=""><img class="branch-imgs" src="Image/Emporium Mall.png" alt="Image"></a>
-                </div>
-                <h3>EMPORIUM MALL</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span> 2nd Floor, Food Court Emporium Mall</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 0311 1100947</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
+    <!-- Product Brand Section -->
+    <section class="style-0">
+        <div class="style-1">
+            <div class="style-2">
+                <h2 class="style-3">Welcome to <span class="style-4">Salt'n Pepper</span><br
+                        class="style-5" />Restaurants! Our Brands</h2>
+                <p class="style-6">Please click our brands below for further information, reservations or to order
+                    online!</p>
             </div>
-            <div class="child">
-                <div class="child2"><a href=""><img class="branch-imgs" src="Image/Gujranwala.png" alt="Image"></a>
-                </div>
-                <h3>GUJRANWALA</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span> Sixteenth Avenue Mall</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 0300 6024000</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div class="child2"><a href=""><img class="branch-imgs" src="Image/sargodha.png" alt="Image"></a>
-                </div>
-                <h3>SARGODHA</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span> Opposite Sargodha Arts Council Babar Road</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 048-3725500</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- second part -->
-        <div class="child-of-div-4-1">
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Jhelum.png" alt=""></a></div>
-                <h3>JHELUM</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>Opposite Dancing Fountain Gallery 2 Citi <br>Housing Jhelum,</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 0307 7675555</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Faisal Town.png" alt=""></a></div>
-                <h3>FAISAL TOWN</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>34-C Abul Hassan Isfahani Rd, Faisal <br>Town,Lahore</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 042-111-100-678</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/DHA.png" alt=""></a></div>
-                <h3>DHA</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>93-Y Phase III, DHA,Lahore</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 042-111-100-678</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- third part -->
-        <div class="child-of-div-4-2">
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Bahria Town.png" alt=""></a></div>
-                <h3>BAHRIA TOWN</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>Arwa Heights Building 19 Nishtar Block, Sector E, <br>Bahria Town Lahore</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 0307 7675555</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Gujar Khan.png" alt=""></a></div>
-                <h3>GUJAR KHAN</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>New Metro City Gujar Khan</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 042-111-100-678</span>
-                </div>
-                <br>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Lahore.png" alt=""></a></div>
-                <h3>LAHORE</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span> Shop no.5, Arcade Block, Fortress Stadium, <br>Lahore</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span> Ph: 315 3437 122</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- fourth part -->
-        <div class="child-of-div-4-3">
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Gujrat.png" alt=""></a></div>
-                <h3>GUJRAT</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>Service Mor, Gujrat</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span>Ph: 0315 3437 122</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-            <div class="child">
-                <div><a href=""><img class="branch-imgs" src="Image/Sahiwal.png" alt=""></a></div>
-                <h3>SAHIWAL</h3>
-                <h2>Salt'n Pepper <span class="span-h2">Express</span></h2>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                    <span>Opposite Main Gate Police Line, Sahiwal</span>
-                </div>
-                <br>
-                <div>
-                    <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                    <span>Ph: +92 315 3437 122</span>
-                </div>
-                <div class="child">
-                    <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                            style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="main-div-5">
-        <h1> <span>Salt'n Pepper </span><br>
-            Village Franchise</h1>
-
-        <div class="child">
-            <img src="Image/VF.png" alt="faislabad-branch-img." class="branch-imgs">
-        </div>
-        <div class="child-of-div-5">
-            <h3>GUJRANWALA</h3>
-            <br>
-            <h2>Salt'n Pepper <span class="span-h2">Restaurant</span></h2>
-            <div>
-                <i class="fa-solid fa-location-dot" style="color: #E7E3E0;"></i>
-                <span>Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</span>
-            </div>
-            <br>
-            <div>
-                <i class="fa-solid fa-phone" style="color: #E7E3E0;"></i>
-                <span> Ph: 055-3884500 l ,055-3880400</span>
-            </div>
-            <br>
-            <div class="child">
-                <button type="button">Get Directions <i class="fa-sharp-duotone fa-solid fa-circle-arrow-right"
-                        style="--fa-primary-color: #ff0000; --fa-secondary-color: #ffffff;"></i></button>
-            </div>
-        </div>
-    </div>
-    <div class="main-div-6">
-        <h1><span>Salt'n Pepper</span><br>
-            Express Franchises&nbsp;&nbsp;<span class="two">(Opening Soon)</span>
-        </h1>
-        <div class="child-of-div-6">
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">Al-Jalil Garden <br>Sadhoke</h3>
-            </div>
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">Al-Jalil Garden <br>Sheikhupura</h3>
-            </div>
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">Blue World City<br>Rawalpindi</h3>
-            </div>
-        </div>
-        <div class="child-of-div-6-1">
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">City Housing <br>Gujranwala
-                </h3>
-            </div>
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">City Housing<br>Sialkot</h3>
-            </div>
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">Al-Jalil Garden<br>Sharqpur</h3>
-            </div>
-        </div>
-        <div class="child-of-div-6-2">
-            <div class="child">
-                <img src="Image/location.png" alt="">
-                <p>OPENING SOON</p>
-                <h3 class="h3-1">Salt'n Pepper <span>Express</span></h3>
-                <h3 class="h3-2">Burewala
-                </h3>
-            </div>
-        </div>
-    </div>
-    <div class="main-div-7">
-        <div>
-            <h3>
-                Social Feed
-            </h3>
-        </div>
-        <div class="child-of-div-7">
-            <div>
-                <img class="Image" src="Image/first.png" alt="">
-            </div>
-            <div>
-                <img class="Image" src="Image/second.png" alt="">
-            </div>
-            <div>
-                <img class="Image" src="Image/thrid.png" alt="">
-            </div>
-            <div>
-                <img class="Image" src="Image/fourth.png
-                " alt="">
-            </div>
-            <div>
-                <img class="Image" src="Image/fifth.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="main-div-8">
-        <div>
-            <img class="Image" src="Image/logo.png" alt="">
-        </div>
-
-        <div>
-            <p>The Salt’n Pepper Restaurants are an example of <br>gracious dinning, outstanding service, extraordinary
-                <br>classic and contemporary cuisine. The restaurants <br>have become the ultimate dinning destinations
-                in <br>Lahore. From family occasions to business dinner <br>and moments of the heart, this place is
-                where <br>unforgettable memories are made.
-                <br>
-                <br>
-                <br>
-                <a href="">Terms & conditions&nbsp;&nbsp;Privacy policy</a>
-            </p>
-        </div>
-        <div class="child-of-div-8">
-            <div>
-                <ul>
-                    <li class="li">
-                        <h3>Site Links</h3>
-                    </li>
-                    <br>
-                    <li>Home</li>
-                    <br>
-                    <li>About Us</li>
-                    <br>
-                    <li>Publications</li>
-                    <br>
-                    <li>Get a Franchise</li>
-                    <br>
-                    <li>Feedback</li>
-                </ul>
-            </div>
-        </div>
-        <div class="child-of-div-8-1">
-            <div>
-                <ul>
-                    <li class="li">
-                        <h3>Contact Us</h3>
-                    </li>
-                    <br>
-                    <li class="li-1"><b>Head office Address</b></li>
-                    <br>
-                    <li>22-Hamza Block, New
-                        <br>Gulshan, Karachi, Pakistan
-                    </li>
-                    <br>
-                    <li class="li-1"><b>Head office number</b></li>
-                    <br>
-                    <br>
-                    <li>+92 315 3437 122</li>
-                    <br>
-                    <li>+92 315 3437 122</li>
-                    <br>
-                    <li class="li-1"><b>Email Address</b></li>
-                    <br>
-                    <li>https://hamza.it.com</li>
-                    <br>
-                    <li class="li-1"><b>Devepler Numbers</b></li>
-                    <br>
-                    <li>+92 315 3437 122</li>
-                    <br>
-                    <li>+92 315 3437 122</li>
-                </ul>
-            </div>
-            <div class="main-div-8-2">
-                <span>
-                    <ul class="two">
-                        <li><b>Follow Us</b></li>
-                        <br>
-                        <li class="1i-2"><i class="fa-brands fa-square-instagram" style="color: #fd321c;"></i>
-                            &nbsp;&nbsp;
-                            <i class="fa-brands fa-square-facebook" style="color: #fd321c;"></i>
-                            &nbsp;&nbsp;
-                            <i class="fa-brands fa-square-twitter" style="color: #fd321c;"></i>
-                        </li>
-                        <br>
-                        <li class="1i-3"><img src="Image/AS.png" alt=""></li>
-                        <br>
-                        <li class="1i-3"><img src="Image/GP.png" alt=""></li>
+            <div class="style-7">
+                <div class="style-8">
+                    <div class="style-9"></div>
+                    <ul class="style-10">
+                        <div class="style-11" tabindex="0">
+                            <div class="style-12">
+                                <li class="style-13" data-slick-index="0">
+                                    <div class="style-14">
+                                        <figure class="style-15"><a href="https://restaurant.saltnpepper.com.pk/"
+                                                target="_blank" rel="noopener" class="style-16"><img class="style-17"
+                                                    src="https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="style-18"><a class="style-19"
+                                            href="https://restaurant.saltnpepper.com.pk/menu" target="_blank"
+                                            rel="noopener">Order Now</a></div>
+                                </li>
+                                <li class="style-20" data-slick-index="1">
+                                    <div class="style-21">
+                                        <figure class="style-22"><a href="https://express.saltnpepper.com.pk/"
+                                                target="_blank" rel="noopener" class="style-23"><img class="style-24"
+                                                    src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="style-25"><a class="style-26"
+                                            href="https://express.saltnpepper.com.pk/menu" target="_blank"
+                                            rel="noopener">Order Now</a></div>
+                                </li>
+                                <li class="style-27" data-slick-index="2">
+                                    <div class="style-28">
+                                        <figure class="style-29"><a href="https://village.saltnpepper.com.pk/"
+                                                target="_blank" rel="noopener" class="style-30"><img class="style-31"
+                                                    src="https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="style-32"><a class="style-33" target="_blank" rel="noopener">Reserve a
+                                            Table</a></div>
+                                </li>
+                                <li class="style-34" data-slick-index="3">
+                                    <div class="style-35">
+                                        <figure class="style-36"><a href="https://signature.saltnpepper.com.pk/"
+                                                target="_blank" rel="noopener" class="style-37"><img class="style-38"
+                                                    src="https://static.tossdown.com/images/38f64422-c79a-4650-8df2-5668743154df.webp" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="style-39"><a href="https://signature.saltnpepper.com.pk/"
+                                            target="_blank" class="style-40" rel="noopener">Order Now</a></div>
+                                </li>
+                            </div>
+                        </div>
                     </ul>
-                </span>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    </div>
-    <hr>
-    <footer>
-           <p>&nbsp; &copy;2024 Salt'n Pepper Restaurant.
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           
-            <span>Powered By Hamza Ahmed Shaikh</span>
-        </p>
-        
-    </footer>
+    <!-- Scripts -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
